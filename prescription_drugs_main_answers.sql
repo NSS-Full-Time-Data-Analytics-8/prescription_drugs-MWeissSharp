@@ -34,7 +34,6 @@ FROM prescriber INNER JOIN
 	LIMIT 1) AS high_prescriber
 	ON prescriber.npi = high_prescriber.npi;
 
-
 --Question 2
 /*a. Which specialty had the most total number of claims (totaled over all drugs)?*/
 SELECT specialty_description, 
